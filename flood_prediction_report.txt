@@ -1,0 +1,24 @@
+
+Flood Prediction Report
+-----------------------
+
+Data Preprocessing:
+- Missing values handled by forward filling.
+- Date column converted to datetime format.
+
+Feature Engineering:
+- Cumulative rainfall calculated over the past 7 days.
+- Binary flood indicator created based on weather conditions.
+
+Model Training:
+- Random Forest model trained with the following evaluation metrics:
+    - Accuracy: 0.7357357357357357
+    - Precision: 0.7417582417582418
+    - Recall: 0.7670454545454546
+    - F1 Score: 0.7541899441340782
+
+Visualizations:
+1. Cumulative Rainfall and Flood Indicator Over Time: see 'cumulative_rainfall_flood_indicator.png'.
+2. Feature Importance: see 'feature_importance.png'.
+3. Confusion Matrix: see 'confusion_matrix.png'.
+4. Flood Predictions on New Data: see 'new_data_predictions.png'.
